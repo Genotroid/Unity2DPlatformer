@@ -189,7 +189,8 @@ GameObject:
   m_Component:
   - component: {fileID: 48997009}
   - component: {fileID: 48997010}
-  m_Layer: 9
+  - component: {fileID: 48997011}
+  m_Layer: 0
   m_Name: DeadZone (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -220,7 +221,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -236,6 +237,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 5.62, y: 0.24}
   m_EdgeRadius: 0
+--- !u!114 &48997011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 48997008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e692fb268e159545823dbbd3808d84d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &53450830
 GameObject:
   m_ObjectHideFlags: 0
@@ -3175,7 +3188,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1370765037}
   - component: {fileID: 1370765038}
-  m_Layer: 10
+  - component: {fileID: 1370765039}
+  m_Layer: 0
   m_Name: PatrolPoint1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3222,6 +3236,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.22, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1370765039
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1370765036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d92f7fbcea05b3489271e0ebe0435c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1437110192
 GameObject:
   m_ObjectHideFlags: 0
@@ -3587,7 +3613,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1573379767}
   - component: {fileID: 1573379768}
-  m_Layer: 10
+  - component: {fileID: 1573379769}
+  m_Layer: 0
   m_Name: PatrolPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3634,6 +3661,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.22, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1573379769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1573379766}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d92f7fbcea05b3489271e0ebe0435c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1589844960
 GameObject:
   m_ObjectHideFlags: 0
@@ -4119,6 +4158,7 @@ GameObject:
   - component: {fileID: 1732928567}
   - component: {fileID: 1732928569}
   - component: {fileID: 1732928568}
+  - component: {fileID: 1732928570}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -4264,6 +4304,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1732928566}
   m_CullTransparentMesh: 0
+--- !u!114 &1732928570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1732928566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93024b506126a7d459e8726d8294d14b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _player: {fileID: 2011536927}
+  _scoreText: {fileID: 1732928568}
 --- !u!1 &1757778937
 GameObject:
   m_ObjectHideFlags: 0
@@ -5005,7 +5059,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2002047165}
   - component: {fileID: 2002047166}
-  m_Layer: 9
+  - component: {fileID: 2002047167}
+  m_Layer: 0
   m_Name: DeadZone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5036,7 +5091,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -5052,6 +5107,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 5.62, y: 0.24}
   m_EdgeRadius: 0
+--- !u!114 &2002047167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2002047164}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e692fb268e159545823dbbd3808d84d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2005150632
 GameObject:
   m_ObjectHideFlags: 0
@@ -5134,6 +5201,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2011536927 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4019485184996446568, guid: 8c6387114c2637a4ea295b5eaff1cef4,
+    type: 3}
+  m_PrefabInstance: {fileID: 4019485184530389661}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc85a52955e5398489d698d387505ab6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2015624013
 GameObject:
   m_ObjectHideFlags: 0
@@ -5738,7 +5817,13 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6261670758954905942, guid: 37842b1c54ecabd4690a4f469676fbab,
+        type: 3}
+      propertyPath: _walkSpeed
+      value: 2
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6261670758954905943, guid: 37842b1c54ecabd4690a4f469676fbab, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 37842b1c54ecabd4690a4f469676fbab, type: 3}
 --- !u!1001 &8614577156506384636
 PrefabInstance:
