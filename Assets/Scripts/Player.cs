@@ -6,11 +6,11 @@ using UnityEngine.Events;
 
 public class Player : MonoBehaviour
 {
-    public event UnityAction OnTakeDiamond;
+    public event UnityAction DiamondTaked;
 
     public void TakeDiamond()
     {
-        OnTakeDiamond?.Invoke();
+        DiamondTaked?.Invoke();
     }
 
     public void Die()

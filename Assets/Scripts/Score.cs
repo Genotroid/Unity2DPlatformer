@@ -12,12 +12,12 @@ public class Score : MonoBehaviour
 
     private void OnEnable()
     {
-        _player.OnTakeDiamond += ChangeScore;
+        _player.DiamondTaked += ChangeScore;
     }
 
     private void OnDisable()
     {
-        _player.OnTakeDiamond -= ChangeScore;
+        _player.DiamondTaked -= ChangeScore;
     }
 
     private void ChangeScore()
